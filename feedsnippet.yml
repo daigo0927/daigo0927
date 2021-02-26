@@ -1,0 +1,11 @@
+- urls:
+    - https://zenn.dev/dhirooka/feed
+  template: |-
+    {{range . -}}
+      * {{ if eq .Header.FeedLink "https://zenn.dev/dhirooka/feed" -}}
+            ![](./icon/zenn.png)
+        {{- end }}{{ end -}}
+      [{{ .Title }}]({{ .Link }})
+    {{ end }}
+  limit: 5
+  sort_by_published: true
