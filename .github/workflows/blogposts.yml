@@ -1,27 +1,31 @@
 name: Blog post workflow
 on:
-  schedule:
-    - cron: '0 0 * * *'
+  # schedule:
+  #   - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
-  pull_blog_rss:
+  build:
     name: Update with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Get RSS Feed
-        uses: kohrongying/readme-the-rss@master
-        with:
-          feed_url: https://zenn.dev/dhirooka/feed
-          count: 5 # default 5
-      - name: Commit file changes
-        run: |
-            git config --global user.name 'DAIGO HIROOKA'
-            git config --global user.email 'daigo.hirooka@gmail.com'
-            git add .
-            git diff --quiet --cached || git commit -m "Update blog post"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v2
+    
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.16
+
+    - name: Install feedsnippet
+      run: go install github.com/ikawaha/feedsnippet@latest
+
+    - name: Update README.md
+      run: feedsnippet -config feedsnippet.yml -file README.md
+      
+    - name: Commit file changes
+      run: |
+          git config --global user.name 'DAIGO HIROOKA'
+          git config --global user.email 'daigo.hirooka@gmail.com'
+          git add .
+          git diff --quiet --cached || git commit -m "Update blog post"
+          git push origin main
