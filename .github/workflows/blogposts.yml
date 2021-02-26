@@ -1,0 +1,26 @@
+name: Blog post workflow
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  pull_blog_rss:
+    name: Update with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get RSS Feed
+        uses: kohrongying/readme-the-rss@master
+        with:
+          feed_url: https://zenn.dev/dhirooka/feed
+          count: 5 # default 5
+      - name: Commit file changes
+        run: |
+            git config --global user.name 'DAIGO HIROOKA'
+            git config --global user.email 'daigo.hirooka@gmail.com'
+            git add .
+            git diff --quiet --cached || git commit -m "Update blog post"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
