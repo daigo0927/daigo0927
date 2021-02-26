@@ -3,7 +3,7 @@
   template: |-
     {{range . -}}
       * {{ if eq .Header.FeedLink "https://zenn.dev/dhirooka/feed" -}}
-            ![](./icon/zenn.png)
+            ![](./icons/zenn.png)
         {{- end }}{{ end -}}
       [{{ .Title }}]({{ .Link }})
     {{ end }}
