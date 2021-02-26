@@ -8,13 +8,12 @@
 - Linkedin - [Daigo Hirooka](https://www.linkedin.com/in/daigo-hirooka-985126108/)
 
 ## Recent Blog Posts :book:
-<!--[START github.com/ikawaha/feedsnippet]--><!--[2021-02-26T18:27:13Z]-->
-**Zenn**
- * ![](./icons/zenn.png) [【論文】Language Models are Few-Shot Learners](https://zenn.dev/dhirooka/articles/dc3d31f15cccb6)
- * ![](./icons/zenn.png) [【読書】モノリスからマイクロサービスへ](https://zenn.dev/dhirooka/articles/206dd48696f006)
- * ![](./icons/zenn.png) [GPT-3におけるFew-Shot・Zero-Shot](https://zenn.dev/dhirooka/articles/34205e1b423a80)
- * ![](./icons/zenn.png) [Model Cardって知ってる？](https://zenn.dev/dhirooka/articles/c2b3d52e31cd10)
- <!--[END github.com/ikawaha/feedsnippet]-->
+<!--[START github.com/ikawaha/feedsnippet]--><!--[2021-02-26T19:03:23Z]-->
+* ![](./icons/zenn.png) [【論文】Language Models are Few-Shot Learners](https://zenn.dev/dhirooka/articles/dc3d31f15cccb6)
+* ![](./icons/zenn.png) [【読書】モノリスからマイクロサービスへ](https://zenn.dev/dhirooka/articles/206dd48696f006)
+* ![](./icons/zenn.png) [GPT-3におけるFew-Shot・Zero-Shot](https://zenn.dev/dhirooka/articles/34205e1b423a80)
+* ![](./icons/zenn.png) [Model Cardって知ってる？](https://zenn.dev/dhirooka/articles/c2b3d52e31cd10)
+<!--[END github.com/ikawaha/feedsnippet]-->
 
 ## Overall stats :chart_with_upwards_trend:
 
