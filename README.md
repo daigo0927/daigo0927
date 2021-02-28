@@ -8,7 +8,8 @@
 - Linkedin - [Daigo Hirooka](https://www.linkedin.com/in/daigo-hirooka-985126108/)
 
 ## Recent Blog Posts :book:
-<!--[START github.com/ikawaha/feedsnippet]--><!--[2021-02-26T19:03:23Z]-->
+<!--[START github.com/ikawaha/feedsnippet]--><!--[2021-02-28T08:30:45Z]-->
+* ![](./icons/zenn.png) [【読書】Introducing MLOps](https://zenn.dev/dhirooka/articles/4dec7966a97a16)
 * ![](./icons/zenn.png) [【論文】Language Models are Few-Shot Learners](https://zenn.dev/dhirooka/articles/dc3d31f15cccb6)
 * ![](./icons/zenn.png) [【読書】モノリスからマイクロサービスへ](https://zenn.dev/dhirooka/articles/206dd48696f006)
 * ![](./icons/zenn.png) [GPT-3におけるFew-Shot・Zero-Shot](https://zenn.dev/dhirooka/articles/34205e1b423a80)
