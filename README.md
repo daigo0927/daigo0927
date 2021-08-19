@@ -8,12 +8,12 @@
 - Linkedin - [Daigo Hirooka](https://www.linkedin.com/in/daigo-hirooka-985126108/)
 
 ## Recent Blog Posts :book:
-<!--[START github.com/ikawaha/feedsnippet]--><!--[2021-06-20T12:27:27Z]-->
+<!--[START github.com/ikawaha/feedsnippet]--><!--[2021-08-19T11:13:15Z]-->
+* ![](./icons/zenn.png) [WorkflowsとVertex AIカスタムジョブによるお手軽MLワークフロー](https://zenn.dev/dhirooka/articles/7b6c879b1d5576)
 * ![](./icons/zenn.png) [StreamlitとFastAPIで非同期推論MLアプリを作る](https://zenn.dev/dhirooka/articles/f82744d2475b68)
 * ![](./icons/zenn.png) [TensorFlow・PyTorchによる分散学習](https://zenn.dev/dhirooka/articles/225da863f2659a)
 * ![](./icons/zenn.png) [OmegaConfで型チェック付きのコンフィグ管理](https://zenn.dev/dhirooka/articles/f2c12ceae3a0a5)
 * ![](./icons/zenn.png) [【論文】AdaBins: Depth Estimation using Adaptive Bins](https://zenn.dev/dhirooka/articles/a8c08576fea909)
-* ![](./icons/zenn.png) [【読書】Introducing MLOps](https://zenn.dev/dhirooka/articles/4dec7966a97a16)
 <!--[END github.com/ikawaha/feedsnippet]-->
 
 ## Overall stats :chart_with_upwards_trend:
