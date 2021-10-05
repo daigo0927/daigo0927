@@ -8,12 +8,12 @@
 - Linkedin - [Daigo Hirooka](https://www.linkedin.com/in/daigo-hirooka-985126108/)
 
 ## Recent Blog Posts :book:
-<!--[START github.com/ikawaha/feedsnippet]--><!--[2021-09-23T13:51:01Z]-->
+<!--[START github.com/ikawaha/feedsnippet]--><!--[2021-10-05T13:18:29Z]-->
+* ![](./icons/zenn.png) [CeleryによるPythonベース非同期タスク処理](https://zenn.dev/dhirooka/articles/c8fbc592f89ffc)
 * ![](./icons/zenn.png) [Vertex AIでカスタムモデルをサービングする](https://zenn.dev/dhirooka/articles/5e53361fb08f9e)
 * ![](./icons/zenn.png) [WorkflowsとVertex AIカスタムジョブによるお手軽MLワークフロー](https://zenn.dev/dhirooka/articles/7b6c879b1d5576)
 * ![](./icons/zenn.png) [StreamlitとFastAPIで非同期推論MLアプリを作る](https://zenn.dev/dhirooka/articles/f82744d2475b68)
 * ![](./icons/zenn.png) [TensorFlow・PyTorchによる分散学習](https://zenn.dev/dhirooka/articles/225da863f2659a)
-* ![](./icons/zenn.png) [OmegaConfで型チェック付きのコンフィグ管理](https://zenn.dev/dhirooka/articles/f2c12ceae3a0a5)
 <!--[END github.com/ikawaha/feedsnippet]-->
 
 ## Overall stats :chart_with_upwards_trend:
